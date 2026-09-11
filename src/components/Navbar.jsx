@@ -16,6 +16,7 @@ import {
   Settings,
   Info,
   Compass,
+  Clock,
 } from 'lucide-react'
 
 import Logo from './Logo'
@@ -60,6 +61,7 @@ export default function Navbar({ sidebarOpen, setSidebarOpen, onStartTour }) {
 
   const navItems = [
     { label: 'Agents', to: '/', icon: Sparkles, end: true },
+    { label: 'Automations', to: '/automations', icon: Clock },
     { label: 'Suites', to: '/suites', icon: LibraryBig },
     { label: 'Workflows', to: '/workflows', icon: Workflow },
     { label: 'Battle', to: '/battle', icon: PanelsTopLeft },
