@@ -69,6 +69,8 @@ For example:
 - LIMIT — how results are limited
 
 Only include clauses that actually appear in the query.
+## One-Line Summary
+Write a single sentence describing what the query does.
 
 ## Result Explanation
 Explain what the resulting table would contain and what each important column represents.
@@ -76,13 +78,16 @@ Explain what the resulting table would contain and what each important column re
 ## Key Concepts
 Briefly explain any important SQL concepts used in the query.
 
+## Common Mistakes and Things to Watch For
+List common mistakes or pitfalls that beginners could run into with this kind of query, such as NULL handling, missing GROUP BY columns, ambiguous joins, or misunderstanding how a clause works. Focus on correctness and understanding, not performance.
+
 Rules:
 - Explain using simple, beginner-friendly language.
 - Do not optimize or rewrite the query.
 - Do not suggest indexes or performance improvements.
 - Do not change the query's meaning.
 - Do not invent tables, columns, or values.
-- Use the specified SQL dialect where relevant.
+- If a SQL dialect is provided, use it where relevant. If no dialect is provided, explain the query generically and do not assume a specific database.
 - If the query contains an error, point it out clearly instead of inventing a result.
 - If schema information is not provided, explain only what can be determined from the query.
 - Keep the explanation concise but useful.`,
