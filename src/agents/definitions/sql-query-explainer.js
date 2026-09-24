@@ -29,8 +29,9 @@ ORDER BY COUNT(*) DESC;`,
             required: true,
         },
         {
+                    
             id: "dialect",
-            label: "SQL Dialect",
+            label: "SQL Dialect (optional)",
             type: "select",
             options: [
                 "PostgreSQL",
@@ -40,8 +41,8 @@ ORDER BY COUNT(*) DESC;`,
                 "Snowflake",
                 "SQL Server",
             ],
-            defaultValue: "PostgreSQL",
-            required: true,
+            required: false,
+        
         },
     ],
 
